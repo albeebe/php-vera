@@ -1,0 +1,323 @@
+Units
+
+	Array
+	(
+	    [0] => Array
+	        (
+	            [name] => Als Vera
+	            [serial] => 35014492
+	            [firmware] => 1.5.622
+	            [ip] => 
+	        )
+	
+	)
+
+Devices for unit 0
+
+	Array
+	(
+	    [1] => Array
+	        (
+	            [id] => 1
+	            [type] => urn:schemas-micasaverde-com:device:ZWaveNetwork:1
+	            [name] => ZWave
+	            [manufacturer] => 
+	            [created] => 1374913099
+	            [invisible] => 1
+	            [disabled] => 
+	            [category_id] => 19
+	            [category_name] => Other
+	            [room_id] => 
+	            [room_name] => 
+	        )
+	
+	    [2] => Array
+	        (
+	            [id] => 2
+	            [type] => urn:schemas-micasaverde-com:device:SceneController:1
+	            [name] => _Scene Controller
+	            [manufacturer] => 
+	            [created] => 1384269197
+	            [invisible] => 1
+	            [disabled] => 0
+	            [category_id] => 14
+	            [category_name] => Other
+	            [room_id] => 0
+	            [room_name] => 
+	            [is_on] => 1
+	        )
+	
+	    [3] => Array
+	        (
+	            [id] => 3
+	            [type] => urn:schemas-micasaverde-com:device:DoorLock:1
+	            [name] => Back Door Lock
+	            [manufacturer] => Kwikset
+	            [created] => 1384282415
+	            [invisible] => 
+	            [disabled] => 0
+	            [category_id] => 7
+	            [category_name] => Locks
+	            [room_id] => 1
+	            [room_name] => Dining Room
+	            [is_on] => 1
+	            [battery_level] => 70
+	        )
+	
+	    [4] => Array
+	        (
+	            [id] => 4
+	            [type] => urn:schemas-micasaverde-com:device:DoorLock:1
+	            [name] => Side Door Lock
+	            [manufacturer] => Kwikset
+	            [created] => 1384282415
+	            [invisible] => 
+	            [disabled] => 0
+	            [category_id] => 7
+	            [category_name] => Locks
+	            [room_id] => 3
+	            [room_name] => Back Room
+	            [is_on] => 1
+	            [battery_level] => 50
+	        )
+	
+	    [5] => Array
+	        (
+	            [id] => 5
+	            [type] => urn:schemas-micasaverde-com:device:DoorLock:1
+	            [name] => Front Door Lock
+	            [manufacturer] => Kwikset
+	            [created] => 1384282415
+	            [invisible] => 
+	            [disabled] => 0
+	            [category_id] => 7
+	            [category_name] => Locks
+	            [room_id] => 5
+	            [room_name] => Downstairs Hallway
+	            [is_on] => 1
+	            [battery_level] => 60
+	        )
+	
+	    [6] => Array
+	        (
+	            [id] => 6
+	            [type] => urn:schemas-micasaverde-com:device:GenericIO:1
+	            [name] => AEON Extender
+	            [manufacturer] => Aeon
+	            [created] => 1384297091
+	            [invisible] => 
+	            [disabled] => 0
+	            [category_id] => 11
+	            [category_name] => Other
+	            [room_id] => 4
+	            [room_name] => Kitchen
+	            [is_on] => 0
+	        )
+	
+	    [7] => Array
+	        (
+	            [id] => 7
+	            [type] => urn:schemas-micasaverde-com:device:EnergyCalculator:1
+	            [name] => Ergy
+	            [manufacturer] => 
+	            [created] => 1384309616
+	            [invisible] => 1
+	            [disabled] => 0
+	            [category_id] => 
+	            [category_name] => Other
+	            [room_id] => 0
+	            [room_name] => 
+	        )
+	
+	    [10] => Array
+	        (
+	            [id] => 10
+	            [type] => urn:schemas-upnp-org:device:IOSPush:1
+	            [name] => Push Notification
+	            [manufacturer] => 
+	            [created] => 1384310274
+	            [invisible] => 
+	            [disabled] => 0
+	            [category_id] => 1
+	            [category_name] => Other
+	            [room_id] => 0
+	            [room_name] => 
+	        )
+	
+	    [11] => Array
+	        (
+	            [id] => 11
+	            [type] => urn:schemas-upnp-org:device:BinaryLight:1
+	            [name] => Downstairs Hallway Light
+	            [manufacturer] => Aeon
+	            [created] => 1384382782
+	            [invisible] => 
+	            [disabled] => 0
+	            [category_id] => 3
+	            [category_name] => Lights
+	            [room_id] => 5
+	            [room_name] => Downstairs Hallway
+	            [is_on] => 1
+	        )
+	
+	    [12] => Array
+	        (
+	            [id] => 12
+	            [type] => urn:schemas-upnp-org:device:BinaryLight:1
+	            [name] => Front Yard Lights
+	            [manufacturer] => Aeon
+	            [created] => 1384487345
+	            [invisible] => 
+	            [disabled] => 0
+	            [category_id] => 3
+	            [category_name] => Lights
+	            [room_id] => 6
+	            [room_name] => Front Yard
+	            [is_on] => 0
+	        )
+	
+	    [13] => Array
+	        (
+	            [id] => 13
+	            [type] => urn:schemas-micasaverde-com:device:MotionSensor:1
+	            [name] => South Driveway Sensor
+	            [manufacturer] => 
+	            [created] => 1384584053
+	            [invisible] => 
+	            [disabled] => 0
+	            [category_id] => 4
+	            [category_name] => Sensors
+	            [room_id] => 6
+	            [room_name] => Front Yard
+	            [is_armed] => 1
+	            [is_tripped] => 1
+	            [last_tripped] => 1388600439
+	            [battery_level] => 100
+	        )
+	
+	    [14] => Array
+	        (
+	            [id] => 14
+	            [type] => urn:schemas-micasaverde-com:device:MotionSensor:1
+	            [name] => North Driveway Sensor
+	            [manufacturer] => 
+	            [created] => 1384584053
+	            [invisible] => 
+	            [disabled] => 0
+	            [category_id] => 4
+	            [category_name] => Sensors
+	            [room_id] => 6
+	            [room_name] => Front Yard
+	            [is_armed] => 1
+	            [is_tripped] => 1
+	            [last_tripped] => 1388853374
+	            [battery_level] => 100
+	        )
+	
+	    [15] => Array
+	        (
+	            [id] => 15
+	            [type] => urn:schemas-upnp-org:device:VSwitch:1
+	            [name] => Switch - Auto Lock All Doors
+	            [manufacturer] => 
+	            [created] => 1384922501
+	            [invisible] => 
+	            [disabled] => 0
+	            [category_id] => 
+	            [category_name] => Other
+	            [room_id] => 0
+	            [room_name] => 
+	            [is_on] => 1
+	        )
+	
+	    [16] => Array
+	        (
+	            [id] => 16
+	            [type] => urn:schemas-upnp-org:device:VSwitch:1
+	            [name] => VirtualSwitch
+	            [manufacturer] => 
+	            [created] => 1384922606
+	            [invisible] => 
+	            [disabled] => 0
+	            [category_id] => 
+	            [category_name] => Other
+	            [room_id] => 0
+	            [room_name] => 
+	            [is_on] => 1
+	        )
+	
+	    [17] => Array
+	        (
+	            [id] => 17
+	            [type] => urn:schemas-upnp-org:device:BinaryLight:1
+	            [name] => Front Yard Porch Light
+	            [manufacturer] => Aeon
+	            [created] => 1387508286
+	            [invisible] => 
+	            [disabled] => 0
+	            [category_id] => 3
+	            [category_name] => Lights
+	            [room_id] => 6
+	            [room_name] => Front Yard
+	            [is_on] => 1
+	            [watts] => 63
+	            [kwh] => 12.7270
+	        )
+	
+	    [18] => Array
+	        (
+	            [id] => 18
+	            [type] => urn:schemas-upnp-org:device:BinaryLight:1
+	            [name] => Master Bedroom Fan
+	            [manufacturer] => GE/Jasco
+	            [created] => 1388899175
+	            [invisible] => 
+	            [disabled] => 0
+	            [category_id] => 3
+	            [category_name] => Lights
+	            [room_id] => 7
+	            [room_name] => Master Bedroom
+	            [is_on] => 0
+	        )
+	
+	)
+
+Categories for unit 0
+
+	Array
+	(
+	    [1] => Other
+	    [3] => Lights
+	    [4] => Sensors
+	    [7] => Locks
+	    [11] => Other
+	)
+
+Rooms for unit 0
+
+	Array
+	(
+	    [1] => Dining Room
+	    [2] => Living Room
+	    [3] => Back Room
+	    [4] => Kitchen
+	    [5] => Downstairs Hallway
+	    [6] => Front Yard
+	    [7] => Master Bedroom
+	)
+
+Energy Usage for unit 0
+
+	Array
+	(
+	    [0] => Array
+	        (
+	            [device_id] => 17
+	            [device_name] => Front Yard Porch Light
+	            [room] => Front Yard
+	            [category_id] => 3
+	            [category_name] => Lights
+	            [watts] => 63
+	        )
+	
+	)
