@@ -5,7 +5,7 @@ Units
 	    [0] => Array
 	        (
 	            [name] => Als Vera
-	            [serial] => 35014492
+	            [serial] => 98765432
 	            [firmware] => 1.5.622
 	            [ip] => 
 	        )
