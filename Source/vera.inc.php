@@ -10,7 +10,6 @@ Exception Codes
 
 class VERA {
 
-	protected $_DBH;
 	protected $_username, $_password;
 	protected $_units;
 	protected $_devices;
@@ -132,6 +131,20 @@ public function devices($unit) {
 					$arrDevice["battery_level"] = $state["value"];
 					break;
 				
+				case "currentlevel":
+					if (strtolower($state["service"]) == "urn:micasaverde-com:serviceid:lightsensor1") {
+						$arrDevice["light_level"] = $state["value"];
+					} else if (strtolower($state["service"]) == "urn:micasaverde-com:serviceid:humiditysensor1") {
+						$arrDevice["humidity"] = $state["value"];
+					}
+					break;
+					
+				case "currenttemperature":
+					if (strtolower($state["service"]) == "urn:upnp-org:serviceid:temperaturesensor1") {
+						$arrDevice["temperature"] = $state["value"];
+					}
+					break;
+					
 				case "kwh":
 					if (strtolower($state["service"]) == "urn:micasaverde-com:serviceid:energymetering1") {
 						$arrDevice["kwh"] = $state["value"];
