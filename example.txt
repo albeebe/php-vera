@@ -95,14 +95,14 @@ Devices for unit 0
 	            [room_id] => 5
 	            [room_name] => Downstairs Hallway
 	            [is_on] => 1
-	            [battery_level] => 60
+	            [battery_level] => 0
 	        )
 	
 	    [6] => Array
 	        (
 	            [id] => 6
 	            [type] => urn:schemas-micasaverde-com:device:GenericIO:1
-	            [name] => AEON Extender
+	            [name] => Range Extender
 	            [manufacturer] => Aeon
 	            [created] => 1384297091
 	            [invisible] => 
@@ -148,7 +148,7 @@ Devices for unit 0
 	        (
 	            [id] => 11
 	            [type] => urn:schemas-upnp-org:device:BinaryLight:1
-	            [name] => Downstairs Hallway Light
+	            [name] => Ceiling Light
 	            [manufacturer] => Aeon
 	            [created] => 1384382782
 	            [invisible] => 
@@ -157,7 +157,7 @@ Devices for unit 0
 	            [category_name] => Lights
 	            [room_id] => 5
 	            [room_name] => Downstairs Hallway
-	            [is_on] => 1
+	            [is_on] => 0
 	        )
 	
 	    [12] => Array
@@ -173,7 +173,7 @@ Devices for unit 0
 	            [category_name] => Lights
 	            [room_id] => 6
 	            [room_name] => Front Yard
-	            [is_on] => 0
+	            [is_on] => 1
 	        )
 	
 	    [13] => Array
@@ -259,16 +259,16 @@ Devices for unit 0
 	            [category_name] => Lights
 	            [room_id] => 6
 	            [room_name] => Front Yard
-	            [is_on] => 1
-	            [watts] => 63
-	            [kwh] => 12.7270
+	            [is_on] => 0
+	            [watts] => 0
+	            [kwh] => 14.6780
 	        )
 	
 	    [18] => Array
 	        (
 	            [id] => 18
 	            [type] => urn:schemas-upnp-org:device:BinaryLight:1
-	            [name] => Master Bedroom Fan
+	            [name] => Ceiling Fan
 	            [manufacturer] => GE/Jasco
 	            [created] => 1388899175
 	            [invisible] => 
@@ -278,6 +278,100 @@ Devices for unit 0
 	            [room_id] => 7
 	            [room_name] => Master Bedroom
 	            [is_on] => 0
+	        )
+	
+	    [19] => Array
+	        (
+	            [id] => 19
+	            [type] => urn:schemas-micasaverde-com:device:MotionSensor:1
+	            [name] => Motion Sensor
+	            [manufacturer] => Aeon
+	            [created] => 1389163679
+	            [invisible] => 
+	            [disabled] => 0
+	            [category_id] => 4
+	            [category_name] => Sensors
+	            [room_id] => 8
+	            [room_name] => Downstairs Bathroom
+	            [is_armed] => 1
+	            [is_tripped] => 0
+	            [last_tripped] => 1389169830
+	            [temperature] => 72
+	            [light_level] => 0
+	            [humidity] => 20
+	            [battery_level] => 100
+	        )
+	
+	    [20] => Array
+	        (
+	            [id] => 20
+	            [type] => urn:schemas-upnp-org:device:BinaryLight:1
+	            [name] => Ceiling Light
+	            [manufacturer] => Aeon
+	            [created] => 1389163679
+	            [invisible] => 
+	            [disabled] => 0
+	            [category_id] => 3
+	            [category_name] => Lights
+	            [room_id] => 8
+	            [room_name] => Downstairs Bathroom
+	            [is_on] => 0
+	            [kwh] => 0.0060
+	            [watts] => 0
+	        )
+	
+	    [21] => Array
+	        (
+	            [id] => 21
+	            [type] => urn:schemas-micasaverde-com:device:TemperatureSensor:1
+	            [name] => Temperature Sensor
+	            [manufacturer] => 
+	            [created] => 1389165797
+	            [invisible] => 
+	            [disabled] => 0
+	            [category_id] => 17
+	            [category_name] => Climate
+	            [room_id] => 8
+	            [room_name] => Downstairs Bathroom
+	            [is_tripped] => 1
+	            [last_tripped] => 1389167411
+	            [temperature] => 72
+	        )
+	
+	    [22] => Array
+	        (
+	            [id] => 22
+	            [type] => urn:schemas-micasaverde-com:device:LightSensor:1
+	            [name] => Light Sensor
+	            [manufacturer] => 
+	            [created] => 1389165797
+	            [invisible] => 
+	            [disabled] => 0
+	            [category_id] => 18
+	            [category_name] => Climate
+	            [room_id] => 8
+	            [room_name] => Downstairs Bathroom
+	            [is_tripped] => 1
+	            [last_tripped] => 1389167411
+	            [light_level] => 0
+	        )
+	
+	    [23] => Array
+	        (
+	            [id] => 23
+	            [type] => urn:schemas-micasaverde-com:device:HumiditySensor:1
+	            [name] => Humidity Sensor
+	            [manufacturer] => 
+	            [created] => 1389165797
+	            [invisible] => 
+	            [disabled] => 0
+	            [category_id] => 16
+	            [category_name] => Climate
+	            [room_id] => 8
+	            [room_name] => Downstairs Bathroom
+	            [is_tripped] => 1
+	            [last_tripped] => 1389167411
+	            [humidity] => 20
 	        )
 	
 	)
@@ -291,6 +385,9 @@ Categories for unit 0
 	    [4] => Sensors
 	    [7] => Locks
 	    [11] => Other
+	    [16] => Climate
+	    [17] => Climate
+	    [18] => Climate
 	)
 
 Rooms for unit 0
@@ -304,6 +401,7 @@ Rooms for unit 0
 	    [5] => Downstairs Hallway
 	    [6] => Front Yard
 	    [7] => Master Bedroom
+	    [8] => Downstairs Bathroom
 	)
 
 Energy Usage for unit 0
@@ -312,12 +410,22 @@ Energy Usage for unit 0
 	(
 	    [0] => Array
 	        (
+	            [device_id] => 20
+	            [device_name] => Ceiling Light
+	            [room] => Downstairs Bathroom
+	            [category_id] => 3
+	            [category_name] => Lights
+	            [watts] => 0
+	        )
+	
+	    [1] => Array
+	        (
 	            [device_id] => 17
 	            [device_name] => Front Yard Porch Light
 	            [room] => Front Yard
 	            [category_id] => 3
 	            [category_name] => Lights
-	            [watts] => 63
+	            [watts] => 0
 	        )
 	
 	)
