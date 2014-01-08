@@ -160,6 +160,8 @@ public function devices($unit) {
 				case "status":
 					if (strtolower($state["service"]) == "urn:upnp-org:serviceid:switchpower1") {
 						$arrDevice["is_on"] = $state["value"];
+					} else if (strtolower($state["service"]) == "urn:micasaverde-com:serviceid:doorlock1") {
+						$arrDevice["is_locked"] = $state["value"];
 					}
 					break;
 					
